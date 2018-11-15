@@ -11,6 +11,7 @@ test_plugin: 0.0.1
 
 package: import 'package:test_plugin/test_plugin.dart';
 
+String message = "dynamic text";
 TestPlugin.kickBackValue(message);
 
 For help getting started with Flutter, view our online
